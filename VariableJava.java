@@ -28,7 +28,7 @@ public class VariableJava  {
 	//adalah sebuah satu karakter huruf
 	//Di reprentasikan dengan kata kunci Char
 	
-		char huruf = 'D'; 
+		char huruf = 'C';
 
 		//note : Nilai character di tandai dengan ''
 
