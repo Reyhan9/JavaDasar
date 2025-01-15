@@ -15,12 +15,20 @@ public class VariableJava  {
 			int litint = 25;
 			int hexint = 0xA132B;
 			int binint = 0b01010101;
+			//TipeDataObject
+			Byte OByte = 100;
+			Short OShort = 1_000;
+			Integer OInteger = 1_000_000;
+			Long OLong = null;
 
 		//FloatingPointNumbers
 		//adalah sebuah nilai pecahan atau desimal
 			
 			float iniFloat = 10.10F;
 			double iniDouble = 10.10;
+			//TipeDataObject
+			Float OFloat =10.10F;
+			Double ODouble =10.10;
 
 		//note : Ada batasan value di setiap Data Numbernya
 
@@ -29,6 +37,8 @@ public class VariableJava  {
 	//Di reprentasikan dengan kata kunci Char
 	
 		char huruf = 'C';
+		//TipeDataObject
+		Character Ohuruf = 'B';
 
 		//note : Nilai character di tandai dengan ''
 
@@ -38,6 +48,8 @@ public class VariableJava  {
 
 		boolean benar = true;
 		boolean salah = false;
+		//TipeDataObject
+		Boolean Obenar = true;
 
 		//note : Default value untuk boolean adalah false
 		
