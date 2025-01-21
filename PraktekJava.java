@@ -47,15 +47,49 @@ public class PraktekJava {
 		//note : var harus langsung di isi datanya
 		
 		
-	
+
 		
 
 	
 	}
 
 	public static void main(String[] args) {
+
+	//pengisian data dengan tipeDataObject
 	
-		//convert
+		final var pagename = "Your Data";
+		System.out.println(pagename);
+
+		String username;
+		Integer ageuser;
+		String statuser;
+
+		//InputValue
+
+		username = "lospaulos";
+		ageuser = 16;
+		statuser = "Student";
+		//OutputValue
+		System.out.println(username);
+		System.out.println(ageuser);
+		System.out.println(statuser);
+
+	//perubahan tipeDataObject
+	
+		Byte nilly = 40;
+		Integer convr = nilly - 10_000;
+		System.out.println(convr);
+		//bisa dilakukan di tipeDataPrimitive
+
+		//perubahan tipeDataObject
+		//dengan tipeDataPrimitive
+
+		byte prim = 20;
+		short convr5 = prim;
+		Short endress = convr5;
+
+
+
 	}
 
 }

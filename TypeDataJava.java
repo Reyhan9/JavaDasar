@@ -1,4 +1,4 @@
-public class VariableJava  {
+public class TypeDataJava  {
 	public static void main(String[] args) {
 
 	//TipeDataNumber
@@ -62,7 +62,25 @@ public class VariableJava  {
 		//note : Nilai string ditandai dengan ""
 		//	 Devault value untuk string adalah Null
 
+	//TipeDataArray
+	//adalah yang berisikan sekumpulan data dengan tipe data yang sama
+	//diinisialisasi dengan [] 
 	
+		String[] kotak = new String[2];
+		kotak[0] = "heyelo";
+		kotak[1] = "mayolo";
+
+		int[] kotakni = new int[]{
+			10, 30, 20
+		};
+		//atau
+		String[] kotakins = {
+			"tes3", "tes2", "tes1"
+		};
+
+		//note : jumlah data di array tidak bisa berubah
+		//	 setelah pertama kali dibuat.
+		//	 dibuat bisa langsung atau tidak langsung.
 
 		System.out.println("file ini hanya hasil pembelajaran java saya git: Reyhan9");
 		System.out.println("Sumber : Youtube ProgrammerZamanNow");
